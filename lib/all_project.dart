@@ -20,7 +20,7 @@ class AllProjectsState extends State<AllProjects> {
     Colors.teal,
     Colors.indigo,
     Colors.cyan.shade100,
-    Colors.deepOrange.shade600,
+    Colors.orange,
     Colors.purpleAccent.shade100,
   ];
   final Random _random = Random();
