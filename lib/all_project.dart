@@ -129,19 +129,7 @@ class AllProjectsState extends State<AllProjects> {
               'Description: ${item['description']}',
               style: textStyle,
             ),
-              trailing: IconButton(
-                icon: const Icon(
-                  Icons.delete,
-                  color: Colors.grey,
-                ),
-                onPressed: () {
-                  setState(() {
-                    items.removeAt(position);
-                    filteredItems = List.from(items);
-                    _filterItems(_searchController.text);
-                  });
-                },
-              ),
+
               onTap: () {
                 Navigator.push(
                   context,
